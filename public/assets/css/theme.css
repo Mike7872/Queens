@@ -1,0 +1,14 @@
+:root{
+  --primary:#0d6efd;       /* azul bootstrap */
+  --accent:#ff2f40;        /* fucsia/rosado del empaque */
+  --dark:#111111;          /* negro */
+  --soft-pink:#ffe3f0;     /* fondo suave */
+}
+.bg-gradient-primary{ background: linear-gradient(135deg, var(--primary), var(--accent)); }
+.bg-soft-pink{ background: var(--soft-pink); }
+.bg-body{ background: #f6f7fb; }
+.text-body{ color:#222; }
+.card.shortcut{ border:0; border-radius:1rem; box-shadow:0 8px 24px rgba(0,0,0,.08); }
+.card.shortcut .card-title{ color: var(--primary); }
+.btn-primary{ background-color: var(--primary); border-color: var(--primary); }
+.btn-primary:hover{ filter: brightness(0.95); }
